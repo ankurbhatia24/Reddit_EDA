@@ -26,7 +26,7 @@ This repository contains Flair Prediction on reddit posts of r/india, also inclu
 1. The Reddit data collected is cleaned and Preprocessed according to the models needs.<br>
 The text is cleaned for any punctuations, emojis, special characters, STOPWORDS(A stop word is a commonly used word (such as “the”, “a”, “an”, “in”)), etc.2
 2. The raw text is tokenized (each word/token is assigned a number according to a dictionary) and converted from word to vector using GloVe embeddings (300d).
-3. The Flairs (flairs = ["AskIndia", "Coronavirus", "Non-Political", "Scheduled", "Photography", "Science/Technology", "Politics", "Business/Finance", "Policy/Economy", "Sports", "Food", "AMA"]) to be predicted are converted to One-Hot encodings.
+3. The Flairs (**flairs = ["AskIndia", "Coronavirus", "Non-Political", "Scheduled", "Photography", "Science/Technology", "Politics", "Business/Finance", "Policy/Economy", "Sports", "Food", "AMA"]**) to be predicted are converted to One-Hot encodings.
 4. Finally the data is splitted into Training and Testing.
 ## 1. Convolution Model
 ![](Media/midasl_1.jpg)
