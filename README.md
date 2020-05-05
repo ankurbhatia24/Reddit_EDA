@@ -37,3 +37,8 @@ The text is cleaned for any punctuations, emojis, special characters, STOPWORDS(
 ## 3. Bidirectional LSTM Model
 ![](Media/midasl_4.jpg)
 
+## Other Predictors:
+1. https://github.com/saum7800/reddit-flair-prediction
+2. https://github.com/Riya-11/Reddit-Flair-Predictor
+3. https://github.com/YatinGupta777/Reddit-flare-detector
+4. https://github.com/manalarora/reddit-flair-detection
