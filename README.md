@@ -1,5 +1,25 @@
 # Reddit_EDA
-This repository contains Flair Prediction on reddit posts of r/india, also includes EDA.
+This project consist of Flair Prediction on reddit posts of r/india. (The term flair, used in some subreddits for 'categorizing' posts submitted by users). EDA has been performed on the subreddit data collected. PRAW: The Python Reddit API Wrapper is used for data collection of the following flairs: <br> "AskIndia", "Coronavirus", "Non-Political", "Scheduled", "Photography", "Science/Technology", "Politics", "Business/Finance", "Policy/Economy", "Sports", "Food", "AMA". <br>
+**EDA:** <br>
+1. Most Popular Words (WordCloud)
+2. Posts with less than 10 votes (histogram)
+3. Most Popular Posts (BarPlot)
+4. Most Commented Posts (Barplot)
+5. No. of Comments vs Score (Regression Plots)
+6. Top 10 Authors
+7. Text Cleaning and Analysis
+8. Bag of Words on 2 Posts of same Flair
+9. XG Boost Classifier
+10. Feature Importance for Flair Prediction, etc. <br>
+
+**Prediction Algorithm includes:** <br>
+1. Logistic Regression (sklearn: CountVectorizer -> TFIDF Transformer -> Logistic Regression)
+2. SVM (sklearn: CountVectorizer -> TFIDF Transformer -> SVM)
+3. Naive Bayes (sklearn: CountVectorizer -> TFIDF Transformer -> Naive Bayes)
+[**Code - IPYNB**](https://github.com/ankurbhatia24/Reddit_EDA/blob/master/IPYNB/Testing%20basic%20ML%20Models.ipynb)
+4. 1-D Convolution (Tensorflow/Keras: Word2Vec -> GloVE embeddings -> 1-D Convolution)
+5. LSTM (Tensorflow/Keras: Word2Vec -> GloVE embeddings -> LSTM)
+6. Bidirectional LSTM (Tensorflow/Keras: Word2Vec -> GloVE embeddings -> Bidirectional LSTM) <br>
 
 ## To Test the Application part 1:<br>
 1. Visit: http://13.234.217.64/
